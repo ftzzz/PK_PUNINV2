@@ -1,0 +1,25 @@
+﻿<Window x:Class="ПР21101ПунинВариант2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПР21101ПунинВариант2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="20,2,0,0" TextWrapping="Wrap"
+Text="ПР21101ПунинВариант2" FontSize="24" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,52,0,0" TextWrapping="Wrap"
+Text="Введите предложение:" FontSize="24" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Name ="SentenceTextBox" Margin="20,92,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="24" Width="400"/>
+        <Label Content="" Name="VowelCountLabel" HorizontalAlignment="Left"
+Margin="20,185,0,0" FontSize="24" VerticalAlignment="Top"/>
+        <Label Content="" Name="LongestWordLabel" HorizontalAlignment="Left"
+Margin="25,242,0,0" FontSize="24" VerticalAlignment="Top"/>
+        <Button Content="Найти" Click="CountVowelsButton_Click" HorizontalAlignment="Left"
+Margin="20,132,0,0" FontSize="24" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
+
+       
